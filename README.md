@@ -1,4 +1,4 @@
-# SurfacePro4-FydeOS-SecureBoot
+# SurfacePro4-Brunch-SecureBoot
 Secure Bootloader for [Brunch ChromeOS](https://github.com/sebanc/brunch) and Surface Pro 4
 
 # Preface
@@ -15,7 +15,7 @@ Note that this configuration also requires your brunch `chromeos.img` file to ex
 This also utilizes the latest version of rEFInd for the EFI booloader.
 
 # Add the Key and Boot
-Reboot and enable Secure Boot in the BIOS, and boot from the `/EFI/BOOT/BOOTX64.EFI` image _(add a boot entry to your bios using EasyUEFI or some other tool if not present)__
+Reboot and enable Secure Boot in the BIOS, and boot from the `/EFI/BOOT/BOOTX64.EFI` image _(add a boot entry to your bios using EasyUEFI or some other tool if not present)_
 
 You now get a blue screen with the Access Denied error. Follow these instructions:
 
